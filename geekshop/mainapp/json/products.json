@@ -1,0 +1,56 @@
+[
+  {
+    "category": "Столы",
+    "name": "Характерный стол",
+    "image": "media/products_images/featured-2.jpg",
+    "short_desc": "Стол с характером!",
+    "description": "Лучший в Галактике стол",
+    "price": "99999",
+    "quantity": "1"
+  },
+  {
+    "category": "Столы",
+    "name": "Безхарактерный стол",
+    "image": "media/products_images/featured-2.jpg",
+    "short_desc": "Стол без характера",
+    "description": "Так себе стол",
+    "price": "500",
+    "quantity": "112"
+  },
+  {
+    "category": "Столы",
+    "name": "Кухонный стол",
+    "image": "media/products_images/featured-2.jpg",
+    "short_desc": "Кухонный",
+    "description": "Стол. Для кухни",
+    "price": "1250",
+    "quantity": "13"
+  },
+  {
+    "category": "Стулья",
+    "name": "Характерный стул",
+    "image": "media/products_images/featured-2.jpg",
+    "short_desc": "Стул с характером!",
+    "description": "Лучший в Галактике стул",
+    "price": "9999",
+    "quantity": "4"
+  },
+  {
+    "category": "Стулья",
+    "name": "Безхарактерный стул",
+    "image": "media/products_images/featured-2.jpg",
+    "short_desc": "Стул без характера!",
+    "description": "Так себе стул",
+    "price": "125",
+    "quantity": "448"
+  },
+  {
+    "category": "Стулья",
+    "name": "Кухонный стул",
+    "image": "media/products_images/featured-2.jpg",
+    "short_desc": "Кухонный",
+    "description": "Стул. Для кухни",
+    "price": "350",
+    "quantity": "72"
+  }
+]
