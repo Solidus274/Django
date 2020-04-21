@@ -13,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="JavaScript File" />
+        <option value="Python Script" />
         <option value="HTML File" />
       </list>
     </option>
@@ -26,6 +26,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/mainapp/json" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -89,6 +91,8 @@
       <workItem from="1586605408795" duration="14763000" />
       <workItem from="1586977901800" duration="4222000" />
       <workItem from="1587114886506" duration="14744000" />
+      <workItem from="1587486942238" duration="4873000" />
+      <workItem from="1587495240566" duration="5779000" />
     </task>
     <servers />
   </component>
@@ -104,13 +108,17 @@
       <screen x="0" y="0" width="2498" height="1080" />
     </state>
     <state x="1735" y="256" width="600" height="568" key="#com.intellij.ide.util.MemberChooser/0.0.2498.1080@0.0.2498.1080" timestamp="1586621372896" />
-    <state x="1605" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587136582503">
+    <state x="1605" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587502313237">
       <screen x="0" y="0" width="2498" height="1080" />
     </state>
-    <state x="1605" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2498.1080@0.0.2498.1080" timestamp="1587136582503" />
+    <state x="1605" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2498.1080@0.0.2498.1080" timestamp="1587502313237" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1586614636488">
       <screen x="0" y="0" width="2498" height="1080" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.2498.1080@0.0.2498.1080" timestamp="1586614636488" />
+    <state x="239" y="0" width="918" height="1031" key="dock-window-1" timestamp="1587502684246">
+      <screen x="0" y="0" width="2498" height="1080" />
+    </state>
+    <state x="239" y="0" width="918" height="1031" key="dock-window-1/0.0.2498.1080@0.0.2498.1080" timestamp="1587502684246" />
   </component>
 </project>
