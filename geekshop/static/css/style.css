@@ -83,12 +83,31 @@ html, body {
 .basket {
 	display: block;
 	width: 23px;
-	height: 23px;	
+	height: 23px;
 	background-image: url(/static/img/basket.png);
 	position: absolute;
 	top: 63px;
 	left: 1210px;
 }
+
+.basket_header h2 {
+	float: left;
+	margin-top: 118px;
+	color:  purple;
+	font-size: 36px;
+	font-weight: 700;
+	text-align: left;
+	margin-left: 15px;
+}
+
+.basket_list {
+	color:  #212121;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 30px;
+	text-align: center;
+}
+
 
 .clearfix:after {
 	content: "";
@@ -409,6 +428,67 @@ html, body {
 .trending-products a:hover .text{
 	display: block;
 }
+
+.products_list {
+
+}
+
+
+
+.category-products {
+	margin-top: 100px;
+}
+
+.category-products .block a img {
+	float: left;
+}
+.category-products .block {
+	float: left;
+	margin: 15px;
+	display: block;
+	height: 270px;
+	width: 270px;
+	position: relative;
+}
+.category-products a .text {
+	display: none;
+	height: 268px;
+	width: 268px;
+	background-color: #ffffff;
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    border: 1px solid #9c9c9c;
+}
+.category-products a .text h4 {
+	color:  #212121;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 30px;
+	text-align: center;
+}
+.category-products a .text p {
+	color:  #6c6c6c;
+	font-size: 20px;
+	font-weight: 300;
+	text-align: center;
+	margin: 15px 15px;
+}
+.category-products a .text img {
+	float: none;
+	margin-top: 80px;
+}
+.category-products a:hover .text{
+	display: block;
+}
+
+
+
+
+
+
+
 
 .hot-deal {
 	margin-top: 105px;
@@ -1069,4 +1149,8 @@ td:first-child {
 }
 .related-products a:hover .text{
 	display: block;
+}
+
+.category_record.not_active {
+	opacity: 0.5;
 }

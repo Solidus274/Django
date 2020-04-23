@@ -1,0 +1,66 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block header %}
+
+    <div class="hero-white">
+        <div class="header clearfix">
+            {% include 'includes/inc_menu.html' %}
+            <a href="#" class="search"></a>
+            <a href="#" class="basket"></a>
+        </div>
+    </div>
+{% endblock %}
+{% block menu %}
+    {{ block.super }}
+    <div class="hero-white">
+        <div class="header clearfix">
+            {% include 'includes/inc_menu.html' %}
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="details">
+        <div class="links clearfix">
+            {% include 'includes/inc_products_menu.html' %}
+        </div>
+
+        <div class="products_list">
+            <div class="title clearfix">
+                <h2>
+                    Категория: "{{ category.name|title }}"
+                </h2>
+            </div>
+            <div class="tab-content">
+                {% for product in products %}
+                    <div class="block">
+                        <a href="{% url 'products:product' product.pk %}">
+                            <img src="/media/{{ product.image }}" alt="{{ product.short_desc }}">
+                            <div class="text">
+                                <img src="{% static 'img/icon-hover.png' %}" alt="hover">
+                                <h3>{{ product.category.name }}</h3>
+                                <h4>{{ product.name }}</h4>
+                                <p>{{ product.description }}</p>
+                            </div>
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+{% endblock %}
+
+{% block footer %}
+    {{ block.super }}
+    <p class="small">&copy; GB 2020</p>
+    <div class="social">
+        <a href="#" class="social1"></a>
+        <a href="#" class="social2"></a>
+        <a href="#" class="social3"></a>
+        <a href="#" class="social4"></a>
+    </div>
+    <p class="small">Положения &amp; Условия / Конфиденциальность &amp; Cookies</p>
+{% endblock %}
