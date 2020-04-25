@@ -22,17 +22,17 @@
         <div class="details-products">
             <div class="details-slider">
                 <div class="slider-product">
-                    <img src="/media/{{ hot_product.image }}">
+                    <img src="{{ hot_product.image }}">
                 </div>
                 <div class="slider-control">
                     <div class="block">
-                        <a href="#"><img src="/media/{{ hot_product.image }}" alt=""></a>
+                        <a href="#"><img src="{{ hot_product.image }}" alt=""></a>
                     </div>
                     <div class="block">
-                        <a href="#"><img src="/media/{{ hot_product.image }}" alt=""></a>
+                        <a href="#"><img src="{{ hot_product.image }}" alt=""></a>
                     </div>
                     <div class="block">
-                        <a href="#"><img src="/media/{{ hot_product.image }}" alt=""></a>
+                        <a href="#"><img src="{{ hot_product.image }}" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -88,7 +88,7 @@
                 {% for product in products %}
                     <div class="block">
                         <a href="{% url 'products:product' product.pk %}">
-                            <img src="/media/{{ product.image }}" alt="{{ product.short_desc }}">
+                            <img src="{{ product.image }}" alt="{{ product.short_desc }}">
                             <div class="text">
                                 <h3>{{ product.category.name }}</h3>
                                 <h4>{{ product.name }}</h4>
