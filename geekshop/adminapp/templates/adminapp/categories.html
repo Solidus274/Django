@@ -8,11 +8,7 @@
                 новая категория
             </a>
         </button>
-        <button class="new_product">
-            <a href={% url 'adminapp:product_create' %}>
-                новый продукт
-            </a>
-        </button>
+
         {% for object in object_list %}
             <div class="category_record
         {% if not object.is_active %}

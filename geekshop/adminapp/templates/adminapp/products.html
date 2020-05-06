@@ -3,6 +3,11 @@
 {% load my_tags %}
 {% block content %}
     <div class="products_list">
+        <button class="new_product">
+{#            <a href={% url 'adminapp:product_create' category.pk %}>#}
+                новый продукт
+            </a>
+        </button>
         {% for object in object_list %}
             <div class="product_record">
                 <img

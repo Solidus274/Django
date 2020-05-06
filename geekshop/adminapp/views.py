@@ -116,8 +116,13 @@ class ProductDetailView(DetailView):
 class ProductCreateView(CreateView):
     model = Product
     template_name = 'adminapp/product_create.html'
-    success_url = reverse_lazy('adminapp:categories')
     fields = '__all__'
+
+    def get_success_url(self):
+        self.object = self.get_object()
+        return reverse_lazy('admin:products', kwargs={'pk': self.get_object().category.pk})
+
+    success_url = get_success_url
 
 
 class ProductUpdateView(UpdateView):
@@ -136,7 +141,6 @@ class ProductUpdateView(UpdateView):
 class ProductDeleteView(DeleteView):
     model = Product
     template_name = 'adminapp/product_delete.html'
-    success_url = reverse_lazy('adminapp:categories')
 
     def delete(self, request, *args, **kwargs):
         self.object = self.get_object()
@@ -144,6 +148,12 @@ class ProductDeleteView(DeleteView):
         self.object.save()
 
         return HttpResponseRedirect(self.get_success_url())
+
+    def get_success_url(self):
+        self.object = self.get_object()
+        return reverse_lazy('admin:products', kwargs={'pk': self.get_object().category.pk})
+
+    success_url = get_success_url
 
 # @user_passes_test(lambda u: u.is_superuser)
 # def users(request):
