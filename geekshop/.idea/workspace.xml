@@ -14,8 +14,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -29,22 +29,23 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mainapp/json" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/adminapp/templates/adminapp" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\solid\geekshop\mainapp\json" />
-      <recent name="C:\Users\solid\geekshop\static" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\solid\geekshop\adminapp" />
       <recent name="C:\Users\solid\geekshop\static\js" />
       <recent name="C:\Users\solid\geekshop\authapp\templates\authapp" />
       <recent name="C:\Users\solid\geekshop\mainapp\templates" />
       <recent name="C:\Users\solid\geekshop\static\css" />
-      <recent name="C:\Users\solid\geekshop" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\solid\geekshop\adminapp\templates\adminapp" />
+      <recent name="C:\Users\solid\geekshop\mainapp\json" />
+      <recent name="C:\Users\solid\geekshop\static" />
     </key>
   </component>
   <component name="RunManager">
@@ -93,6 +94,8 @@
       <workItem from="1587114886506" duration="14744000" />
       <workItem from="1587486942238" duration="4873000" />
       <workItem from="1587495240566" duration="5779000" />
+      <workItem from="1587654504558" duration="456000" />
+      <workItem from="1587717825473" duration="36623000" />
     </task>
     <servers />
   </component>
@@ -108,10 +111,14 @@
       <screen x="0" y="0" width="2498" height="1080" />
     </state>
     <state x="1735" y="256" width="600" height="568" key="#com.intellij.ide.util.MemberChooser/0.0.2498.1080@0.0.2498.1080" timestamp="1586621372896" />
-    <state x="1605" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587502313237">
+    <state x="1605" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587832494840">
       <screen x="0" y="0" width="2498" height="1080" />
     </state>
-    <state x="1605" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2498.1080@0.0.2498.1080" timestamp="1587502313237" />
+    <state x="1605" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2498.1080@0.0.2498.1080" timestamp="1587832494840" />
+    <state x="1653" y="295" key="FileChooserDialogImpl" timestamp="1587732269993">
+      <screen x="0" y="0" width="2498" height="1080" />
+    </state>
+    <state x="1653" y="295" key="FileChooserDialogImpl/0.0.2498.1080@0.0.2498.1080" timestamp="1587732269993" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1586614636488">
       <screen x="0" y="0" width="2498" height="1080" />
     </state>
