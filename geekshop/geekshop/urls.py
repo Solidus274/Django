@@ -16,10 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.conf.urls.static import static
 from django.urls import path, include
-
+from django.urls import re_path
 from geekshop import settings
 from mainapp import views
-
 
 urlpatterns = [
     path('', views.main, name='main'),
@@ -29,6 +28,7 @@ urlpatterns = [
     path('basket/', include('basketapp.urls', namespace='basket')),
     path('admin/', include('adminapp.urls', namespace='admin')),
     path('', include('social_django.urls', namespace='social')),
+    re_path(r'^order/', include('ordersapp.urls', namespace='order')),
 ]
 
 if settings.DEBUG:
