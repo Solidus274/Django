@@ -20,6 +20,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1aOSyv30fCqEH1YZsMqsSWlm5ZQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -31,24 +34,24 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last.edited.regexp" value="Sample Text" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/adminapp/templates/adminapp" />
+    <property name="last_opened_file_path" value="$USER_HOME$/geekshop" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\solid\geekshop\adminapp\templates\adminapp" />
-      <recent name="C:\Users\solid\geekshop\mainapp\json" />
-      <recent name="C:\Users\solid\geekshop\static" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\solid\geekshop\adminapp" />
       <recent name="C:\Users\solid\geekshop\static\js" />
       <recent name="C:\Users\solid\geekshop\authapp\templates\authapp" />
       <recent name="C:\Users\solid\geekshop\mainapp\templates" />
       <recent name="C:\Users\solid\geekshop\static\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\solid\geekshop\adminapp\templates\adminapp" />
+      <recent name="C:\Users\solid\geekshop\mainapp\json" />
+      <recent name="C:\Users\solid\geekshop\static" />
     </key>
   </component>
   <component name="RunManager">
@@ -75,6 +78,18 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -116,10 +131,14 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1465" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586605455149">
+    <state x="1296" y="199" key="#Notifications" timestamp="1589309415437">
       <screen x="0" y="0" width="2498" height="1080" />
     </state>
-    <state x="1465" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2498.1080@0.0.2498.1080" timestamp="1586605455149" />
+    <state x="1296" y="199" key="#Notifications/0.0.2498.1080@0.0.2498.1080" timestamp="1589309415437" />
+    <state x="1089" y="406" width="1092" height="573" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589309240276">
+      <screen x="0" y="0" width="2498" height="1080" />
+    </state>
+    <state x="1089" y="406" width="1092" height="573" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2498.1080@0.0.2498.1080" timestamp="1589309240276" />
     <state x="1735" y="256" width="600" height="568" key="#com.intellij.ide.util.MemberChooser" timestamp="1586621372896">
       <screen x="0" y="0" width="2498" height="1080" />
     </state>
@@ -128,18 +147,22 @@
       <screen x="0" y="0" width="2498" height="1080" />
     </state>
     <state x="1605" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2498.1080@0.0.2498.1080" timestamp="1589119516784" />
-    <state x="1653" y="295" key="FileChooserDialogImpl" timestamp="1589123840249">
+    <state x="1653" y="295" key="FileChooserDialogImpl" timestamp="1589311396296">
       <screen x="0" y="0" width="2498" height="1080" />
     </state>
-    <state x="1653" y="295" key="FileChooserDialogImpl/0.0.2498.1080@0.0.2498.1080" timestamp="1589123840249" />
+    <state x="1653" y="295" key="FileChooserDialogImpl/0.0.2498.1080@0.0.2498.1080" timestamp="1589311396296" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1586614636488">
       <screen x="0" y="0" width="2498" height="1080" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.2498.1080@0.0.2498.1080" timestamp="1586614636488" />
-    <state x="1373" y="185" key="SettingsEditor" timestamp="1589123849175">
+    <state x="1373" y="185" key="SettingsEditor" timestamp="1589310485719">
       <screen x="0" y="0" width="2498" height="1080" />
     </state>
-    <state x="1373" y="185" key="SettingsEditor/0.0.2498.1080@0.0.2498.1080" timestamp="1589123849175" />
+    <state x="1373" y="185" key="SettingsEditor/0.0.2498.1080@0.0.2498.1080" timestamp="1589310485719" />
+    <state x="1603" y="365" key="com.intellij.ide.util.TipDialog" timestamp="1589311058193">
+      <screen x="0" y="0" width="2498" height="1080" />
+    </state>
+    <state x="1603" y="365" key="com.intellij.ide.util.TipDialog/0.0.2498.1080@0.0.2498.1080" timestamp="1589311058193" />
     <state x="239" y="0" width="918" height="1031" key="dock-window-1" timestamp="1587502684246">
       <screen x="0" y="0" width="2498" height="1080" />
     </state>
