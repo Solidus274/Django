@@ -3,6 +3,9 @@
 
 
 {% block content %}
+    <div class="h2 text-center head">
+        Вход в систему
+    </div>
     <form class="form-horizontal" action="{% url 'auth:login' %}" method="post">
         {% csrf_token %}
         {% if next %}
@@ -12,17 +15,15 @@
         <br>
         <input class="form-control" type="submit" value="войти">
     </form>
-
     <button class="btn btn-round form-control">
         <a href="{% url 'auth:register' %}" class="">
-            Зарегистрироваться
+            зарегистрироваться
         </a>
     </button>
     <button class="btn btn-round form-control">
         <a href="{% url 'social:begin' 'vk-oauth2' %}?next=/">
-            Вход через ВКонтакте
+         Вход через ВКонтакте
         </a>
     </button>
 
 {% endblock %}
-
